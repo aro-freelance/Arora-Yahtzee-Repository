@@ -25,7 +25,6 @@
 		3859ED742858FBEE00D4854F /* ScoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3859ED732858FBEE00D4854F /* ScoreTableViewController.swift */; };
 		3859ED76285900A200D4854F /* ScoreScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3859ED75285900A200D4854F /* ScoreScreenViewController.swift */; };
 		388EC222285EC74C00334C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388EC221285EC74C00334C00 /* Assets.xcassets */; };
-		ADAD913C22B0FDAE007B460A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADAD913B22B0FDAE007B460A /* README.md */; };
 		ADB0DFFD22AFA6090030352D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0DFFC22AFA6090030352D /* AppDelegate.swift */; };
 		ADB0E00122AFA6090030352D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0E00022AFA6090030352D /* ViewController.swift */; };
 		ADB0E00422AFA6090030352D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0E00222AFA6090030352D /* Main.storyboard */; };
@@ -43,7 +42,6 @@
 		38283FF4285EAD11001574F4 /* greetingsToDadCrop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = greetingsToDadCrop.mp3; sourceTree = "<group>"; };
 		3831188E2859051D00E1D48B /* ScoreLineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreLineModel.swift; sourceTree = "<group>"; };
 		3859ED552857B67700D4854F /* DiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceModel.swift; sourceTree = "<group>"; };
-		3859ED572857BAA700D4854F /* DesignDoc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DesignDoc.md; sourceTree = "<group>"; };
 		3859ED592857BAE300D4854F /* ScoreCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCardModel.swift; sourceTree = "<group>"; };
 		3859ED5B2857BB0300D4854F /* SavedScoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedScoreModel.swift; sourceTree = "<group>"; };
 		3859ED6B2857CDCE00D4854F /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
@@ -53,8 +51,7 @@
 		3859ED732858FBEE00D4854F /* ScoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableViewController.swift; sourceTree = "<group>"; };
 		3859ED75285900A200D4854F /* ScoreScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreScreenViewController.swift; sourceTree = "<group>"; };
 		388EC221285EC74C00334C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
-		ADAD913B22B0FDAE007B460A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		ADB0DFF922AFA6090030352D /* Dicee-iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dicee-iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB0DFF922AFA6090030352D /* AroraYahtzee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroraYahtzee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB0DFFC22AFA6090030352D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADB0E00022AFA6090030352D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADB0E00322AFA6090030352D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,6 +99,7 @@
 		3859ED602857BB5600D4854F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ADB0E00722AFA60E0030352D /* LaunchScreen.storyboard */,
 				ADB0E00222AFA6090030352D /* Main.storyboard */,
 				38283FE028591278001574F4 /* ScoreCardTableViewCell.swift */,
 				38283FE128591278001574F4 /* ScoreCardTableViewCell.xib */,
@@ -111,11 +109,20 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		38B4ECAB2979CE3700D68DA5 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				38283FF0285E9A13001574F4 /* dice4.mp3 */,
+				38283FF2285E9E02001574F4 /* yahtzee1crop.mp3 */,
+				38283FF4285EAD11001574F4 /* greetingsToDadCrop.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 		ADB0DFF022AFA6090030352D = {
 			isa = PBXGroup;
 			children = (
-				ADAD913B22B0FDAE007B460A /* README.md */,
-				ADB0DFFB22AFA6090030352D /* Dicee-iOS13 */,
+				ADB0DFFB22AFA6090030352D /* AroraYahtzee */,
 				ADB0DFFA22AFA6090030352D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,36 +130,32 @@
 		ADB0DFFA22AFA6090030352D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADB0DFF922AFA6090030352D /* Dicee-iOS13.app */,
+				ADB0DFF922AFA6090030352D /* AroraYahtzee.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ADB0DFFB22AFA6090030352D /* Dicee-iOS13 */ = {
+		ADB0DFFB22AFA6090030352D /* AroraYahtzee */ = {
 			isa = PBXGroup;
 			children = (
-				38283FF0285E9A13001574F4 /* dice4.mp3 */,
-				38283FF2285E9E02001574F4 /* yahtzee1crop.mp3 */,
-				38283FF4285EAD11001574F4 /* greetingsToDadCrop.mp3 */,
 				ADB0DFFC22AFA6090030352D /* AppDelegate.swift */,
 				ADE1FB1322B39F0200DD2BD6 /* SceneDelegate.swift */,
 				3859ED5D2857BB1100D4854F /* Model */,
 				3859ED602857BB5600D4854F /* View */,
 				3859ED5E2857BB2400D4854F /* Controller */,
-				ADB0E00722AFA60E0030352D /* LaunchScreen.storyboard */,
+				38B4ECAB2979CE3700D68DA5 /* Audio */,
 				ADB0E00A22AFA60E0030352D /* Info.plist */,
-				3859ED572857BAA700D4854F /* DesignDoc.md */,
 				388EC221285EC74C00334C00 /* Assets.xcassets */,
 			);
-			path = "Dicee-iOS13";
+			path = AroraYahtzee;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADB0DFF822AFA6090030352D /* Dicee-iOS13 */ = {
+		ADB0DFF822AFA6090030352D /* AroraYahtzee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADB0E00D22AFA60E0030352D /* Build configuration list for PBXNativeTarget "Dicee-iOS13" */;
+			buildConfigurationList = ADB0E00D22AFA60E0030352D /* Build configuration list for PBXNativeTarget "AroraYahtzee" */;
 			buildPhases = (
 				ADB0DFF522AFA6090030352D /* Sources */,
 				ADB0DFF622AFA6090030352D /* Frameworks */,
@@ -162,9 +165,9 @@
 			);
 			dependencies = (
 			);
-			name = "Dicee-iOS13";
+			name = AroraYahtzee;
 			productName = "Dicee-iOS13";
-			productReference = ADB0DFF922AFA6090030352D /* Dicee-iOS13.app */;
+			productReference = ADB0DFF922AFA6090030352D /* AroraYahtzee.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -175,14 +178,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1330;
-				ORGANIZATIONNAME = "London App Brewery";
+				ORGANIZATIONNAME = "Arora Software";
 				TargetAttributes = {
 					ADB0DFF822AFA6090030352D = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = ADB0DFF422AFA6090030352D /* Build configuration list for PBXProject "Dicee-iOS13" */;
+			buildConfigurationList = ADB0DFF422AFA6090030352D /* Build configuration list for PBXProject "AroraYahtzee" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -195,7 +198,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADB0DFF822AFA6090030352D /* Dicee-iOS13 */,
+				ADB0DFF822AFA6090030352D /* AroraYahtzee */,
 			);
 		};
 /* End PBXProject section */
@@ -207,7 +210,6 @@
 			files = (
 				38283FE7285E35EB001574F4 /* HighScoreTableViewCell.xib in Resources */,
 				ADB0E00922AFA60E0030352D /* LaunchScreen.storyboard in Resources */,
-				ADAD913C22B0FDAE007B460A /* README.md in Resources */,
 				38283FE328591278001574F4 /* ScoreCardTableViewCell.xib in Resources */,
 				38283FF3285E9E02001574F4 /* yahtzee1crop.mp3 in Resources */,
 				38283FF1285E9A13001574F4 /* dice4.mp3 in Resources */,
@@ -389,6 +391,7 @@
 				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_TEAM = 3YA64BQ5PB;
 				INFOPLIST_FILE = "Dicee-iOS13/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.dice-games";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -397,6 +400,9 @@
 				MARKETING_VERSION = 1.25;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aroragames.arorayahtzee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -411,6 +417,7 @@
 				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_TEAM = 3YA64BQ5PB;
 				INFOPLIST_FILE = "Dicee-iOS13/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.dice-games";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -419,6 +426,9 @@
 				MARKETING_VERSION = 1.25;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aroragames.arorayahtzee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -427,7 +437,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADB0DFF422AFA6090030352D /* Build configuration list for PBXProject "Dicee-iOS13" */ = {
+		ADB0DFF422AFA6090030352D /* Build configuration list for PBXProject "AroraYahtzee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADB0E00B22AFA60E0030352D /* Debug */,
@@ -436,7 +446,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADB0E00D22AFA60E0030352D /* Build configuration list for PBXNativeTarget "Dicee-iOS13" */ = {
+		ADB0E00D22AFA60E0030352D /* Build configuration list for PBXNativeTarget "AroraYahtzee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADB0E00E22AFA60E0030352D /* Debug */,

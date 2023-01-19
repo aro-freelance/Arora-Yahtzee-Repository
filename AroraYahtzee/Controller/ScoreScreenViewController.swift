@@ -80,7 +80,6 @@ class ScoreScreenViewController : UIViewController, UITableViewDataSource, UITab
     
     //current values
     
-    //stored score values
     var cOnes = 0
     var cTwos = 0
     var cThrees = 0

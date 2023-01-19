@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ADB0DFF822AFA6090030352D"
-               BuildableName = "Dicee-iOS13.app"
-               BlueprintName = "Dicee-iOS13"
-               ReferencedContainer = "container:Dicee-iOS13.xcodeproj">
+               BuildableName = "AroraYahtzee.app"
+               BlueprintName = "AroraYahtzee"
+               ReferencedContainer = "container:AroraYahtzee.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ADB0DFF822AFA6090030352D"
-            BuildableName = "Dicee-iOS13.app"
-            BlueprintName = "Dicee-iOS13"
-            ReferencedContainer = "container:Dicee-iOS13.xcodeproj">
+            BuildableName = "AroraYahtzee.app"
+            BlueprintName = "AroraYahtzee"
+            ReferencedContainer = "container:AroraYahtzee.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ADB0DFF822AFA6090030352D"
-            BuildableName = "Dicee-iOS13.app"
-            BlueprintName = "Dicee-iOS13"
-            ReferencedContainer = "container:Dicee-iOS13.xcodeproj">
+            BuildableName = "AroraYahtzee.app"
+            BlueprintName = "AroraYahtzee"
+            ReferencedContainer = "container:AroraYahtzee.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
